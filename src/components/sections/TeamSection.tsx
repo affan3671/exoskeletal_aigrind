@@ -8,11 +8,11 @@ const TeamSection = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const team = [
-    { name: "MD Farhan Ahmad", class: "Class 9E", email: "farhanahmadayan2021@gmail.com", phone: "8851956155" },
-    { name: "Affan Ali", class: "Class 9C", email: "affanali3671@gmail.com", phone: "93115 59624" },
-    { name: "Mohd Hamza Khan", class: "Class 8B", email: "rizwan4676@gmail.com", phone: "9313318899" },
-    { name: "Sidrah Wali", class: "Class 9E", email: "alamwali02@gmail.com", phone: "9810785735" },
-    { name: "Jasmine Ahmed", class: "Class 9E", email: "ahmedjasmine1410@gmail.com", phone: "9716432307" },
+    { name: "MD Farhan Ahmad", class: "Class 9E", email: "farhanahmadayan2021@gmail.com" },
+    { name: "Affan Ali", class: "Class 9C", email: "affanali3671@gmail.com", },
+    { name: "Mohd Hamza Khan", class: "Class 8B", email: "rizwan4676@gmail.com" },
+    { name: "Sidrah Wali", class: "Class 9E", email: "alamwali02@gmail.com" },
+    { name: "Jasmine Ahmed", class: "Class 9E", email: "ahmedjasmine1410@gmail.com" },
   ];
 
   return (
@@ -89,7 +89,7 @@ const TeamSection = () => {
               {/* Links */}
               <div className="space-y-4">
                 <a
-                  href="https://mdfarhanahmad211.github.io/Smart-exo-/"
+                  href="https://smartexoskeleton.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-3 rounded-lg bg-muted hover:bg-accent/10 transition-colors group"
@@ -97,11 +97,11 @@ const TeamSection = () => {
                   <Globe className="w-5 h-5 text-accent" />
                   <div>
                     <span className="text-sm font-medium text-foreground group-hover:text-accent transition-colors">Website</span>
-                    <p className="text-xs text-muted-foreground truncate">mdfarhanahmad211.github.io/Smart-exo-</p>
+                    <p className="text-xs text-muted-foreground truncate">https://smartexoskeleton.netlify.app/</p>
                   </div>
                 </a>
                 <a
-                  href="https://github.com/MDFARHANAHMAD211"
+                  href="https://github.com/MDFARHANAHMAD211 & https://github.com/affan3671"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-3 rounded-lg bg-muted hover:bg-accent/10 transition-colors group"
@@ -109,7 +109,7 @@ const TeamSection = () => {
                   <Github className="w-5 h-5 text-accent" />
                   <div>
                     <span className="text-sm font-medium text-foreground group-hover:text-accent transition-colors">GitHub</span>
-                    <p className="text-xs text-muted-foreground">MDFARHANAHMAD211</p>
+                    <p className="text-xs text-muted-foreground">MDFARHANAHMAD211 & affan3671</p>
                   </div>
                 </a>
               </div>
