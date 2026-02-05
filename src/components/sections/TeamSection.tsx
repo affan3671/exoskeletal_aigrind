@@ -8,11 +8,11 @@ const TeamSection = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const team = [
-    { name: "MD Farhan Ahmad", class: "Class 9E", email: "farhanahmadayan2021@gmail.com" },
-    { name: "Affan Ali", class: "Class 9C", email: "affanali3671@gmail.com", },
-    { name: "Mohd Hamza Khan", class: "Class 8B", email: "rizwan4676@gmail.com" },
-    { name: "Sidrah Wali", class: "Class 9E", email: "alamwali02@gmail.com" },
-    { name: "Jasmine Ahmed", class: "Class 9E", email: "ahmedjasmine1410@gmail.com" },
+    { name: "MD Farhan Ahmad", class: "Class 9E", email: "farhanahmadayan2021@gmail.com", phone: "8851956155" },
+    { name: "Affan Ali", class: "Class 9C", email: "affanali3671@gmail.com", phone: "93115 59624" },
+    { name: "Mohd Hamza Khan", class: "Class 8B", email: "rizwan4676@gmail.com", phone: "9313318899" },
+    { name: "Sidrah Wali", class: "Class 9E", email: "alamwali02@gmail.com", phone: "9810785735" },
+    { name: "Jasmine Ahmed", class: "Class 9E", email: "ahmedjasmine1410@gmail.com", phone: "9716432307" },
   ];
 
   return (
